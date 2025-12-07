@@ -24,6 +24,9 @@ export interface ArcardeResponse {
     lastUpdateTime: string
     lastUpdateDifference: string 
     website: string
+    // properties I added after the API call
+    ddr?: boolean
+    piu?: boolean
 }
 
 export async function fetchArcades(game: Game): Promise<CloudFlareResponse> {

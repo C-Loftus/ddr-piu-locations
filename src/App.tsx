@@ -34,15 +34,7 @@ function App() {
           `${a.latitude.toFixed(5)},${a.longitude.toFixed(5)}`;
         const arcadeMap: Record<
           string,
-          {
-            latitude: number;
-            longitude: number;
-            ddr?: boolean;
-            piu?: boolean;
-            name: string;
-            address: string;
-            website: string;
-          }
+          ArcardeResponse
         > = {};
 
         ddrResp.arcades?.forEach((a) => {
