@@ -113,7 +113,7 @@ function App() {
             only
           </div>
           <div>
-            <span style={{ color: "#800080", fontWeight: "bold" }}>●</span> Both
+            <span style={{ color: "#27b950ff", fontWeight: "bold" }}>●</span> Both
             DDR + PIU
           </div>
         </div>
@@ -159,7 +159,7 @@ function App() {
                 "circle-color": [
                   "case",
                   ["all", ["get", "ddr"], ["get", "piu"]],
-                  "#800080",
+                  "#27b950ff",
                   ["get", "ddr"],
                   "#ff006e",
                   ["get", "piu"],
